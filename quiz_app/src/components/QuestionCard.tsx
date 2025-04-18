@@ -15,7 +15,7 @@ const QuestionCard: React.FC<Props> = ({ question, options, handleAnswer }) => {
           <button
             key={option}
             onClick={() => handleAnswer(option)}
-            className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+            className="bg-orange-500 text-white py-2 px-4 rounded hover:bg-orange-600"
             dangerouslySetInnerHTML={{ __html: option }}
           />
         ))}
